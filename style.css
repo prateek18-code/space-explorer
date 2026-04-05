@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: space;
+    src: url(./BackoverRegular-R9lqV.ttf);
+}
+.outer{
+    /* height: 100%; */
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url(space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    overflow: auto;
+}
+.head1{
+    color: blanchedalmond;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5%;
+}
+.head2{
+    color: blanchedalmond;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 3%;
+}
+
+.earth{
+    /* height: 30%; */
+    width: 175px;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    background-color: rgb(109, 99, 94);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    transition: 60ms;
+    font-family: space;
+    /* background: fixed; */
+}
+.earth button{
+    color: black;
+    background-color: beige;
+    border-radius: 0.5rem;
+    width: 100px;
+}
+.earth-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.earth:hover{
+    box-shadow: 9px 9px 25px beige;
+    transform: scale(1.2);
+}
+.mars{
+    width: 175px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: rgb(109, 99, 94);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    transition: 60ms;
+    font-family: space;
+}
+.mars-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.mars button{
+    color: black;
+    background-color: beige;
+    border-radius: 0.5rem;
+    width: 100px;
+}
+.mars:hover{
+    box-shadow: 9px 9px 25px beige;
+    transform: scale(1.2);
+}
+
+.saturn{
+    width: 175px;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    background-color: rgb(109, 99, 94);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    transition: 60ms;
+    font-family: space;
+}
+.saturn-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.saturn button{
+    color: black;
+    background-color: beige;
+    border-radius: 0.5rem;
+    width: 100px;
+}
+.saturn:hover{
+    box-shadow: 9px 9px 25px beige;
+    transform: scale(1.2);
+}
+
+.naptune{
+    width: 175px;
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    background-color: rgb(109, 99, 94);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    transition: 60ms;
+    font-family: space;
+}
+.naptune-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.naptune button{
+    color: black;
+    background-color: beige;
+    border-radius: 0.5rem;
+    width: 100px;
+}
+.naptune:hover{
+     box-shadow: 9px 9px 25px beige;
+    transform: scale(1.2);
+}
+
+.jupiter{
+    width: 175px;
+    position: absolute;
+    top: 50%;
+    left: 79%;
+    background-color: rgb(109, 99, 94);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    transition: 60ms;
+    font-family: space;
+}
+
+.jupiter-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.jupiter button{
+    color: black;
+    background-color: beige;
+    border-radius: 0.5rem;
+    width: 100px;
+}
+.jupiter:hover{
+    box-shadow: 9px 9px 25px beige;
+    transform: scale(1.2);
+}
+
+.mercury {
+    width: 175px;
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    background-color: rgb(109, 99, 94);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    transition: 60ms;
+    font-family: space;
+}
+.mercury-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.mercury button{
+    color: black;
+    background-color: beige;
+    border-radius: 0.5rem;
+    width: 100px;
+}
+.mercury:hover{
+    box-shadow: 9px 9px 25px beige;
+    transform: scale(1.2);
+}
+
+.venus{
+    width: 175px;
+    position: absolute;
+    top: 50%;
+    left: 117%;
+    background-color: rgb(109, 99, 94);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    transition: 60ms;
+    font-family: space;
+}
+.venus-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.venus button{
+    color: black;
+    background-color: beige;
+    border-radius: 0.5rem;
+    width: 100px;
+}
+.venus:hover{
+    box-shadow: 9px 9px 25px beige;
+    transform: scale(1.2);
+}
+.uranus{
+    width: 175px;
+    position: absolute;
+    top: 50%;
+    left: 135%;
+    background-color: rgb(109, 99, 94);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    transition: 60ms;
+    font-family: space;
+}
+.uranus-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.uranus button{
+    color: black;
+    background-color: beige;
+    border-radius: 0.5rem;
+    width: 100px;
+}
+.uranus:hover{
+    box-shadow: 9px 9px 25px beige;
+    transform: scale(1.2);
+}
+.divs{
+    overflow-x: auto;
+    width: 155%;
+}
